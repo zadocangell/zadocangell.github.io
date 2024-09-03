@@ -1,0 +1,16 @@
+<h2>Table of Contents</h2>
+  <ol class="inset">
+    <li>What is a website, and how do they work?</li>
+    <li> How do I make my own?</li>
+      <ol type="a">
+        <li>Basic HTML</li>
+        <li>Adding CSS</li>
+        <li>Advanced HTML/CSS</li>
+        <li>GitHub</li>
+          <ol>
+            <li>What is that?</li>
+            <li>GitHub Pages</li>
+            <li>Custom Domain</li>
+          </ol>
+      </ol>
+  </ol>
