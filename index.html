@@ -1,26 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href='https://fonts.googleapis.com/css?family=Moderustic' rel='stylesheet'>
-<link rel="icon" href="images/icon.png" type="image/x-icon">
-<style>
-body {font-family: 'Moderustic'; padding-left:340px; padding-right:375px; word-break:normal;background-color:#f4f4f4;}
-h2 {font-size:1.6rem;}
-h1 {font-size:4.2rem; text-align:center; position:relative; top:1em}
-p {font-size:1.1rem;}
-ul {box-shadow: 10px 0px 5px 0px #b0b0b0;list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #ffffff;position: fixed;top:0;left:0;width: 100%;font-size:2rem;padding-left:0em;padding-right:0em;}
-li {float: left;}
-li a {display: block;color: black;text-align: center;padding: 14px 16px;text-decoration: none;transition:0.2s;}
-li a:hover {background-color: #b4ffb4;}
-</style>
-<title>Building a Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Moderustic' rel='stylesheet'>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Moderustic';
+            margin: 0 10%;
+            word-break: normal;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        h1 {
+            font-size: 3.2rem;
+            text-align: center;
+            position: relative;
+            top: 1em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+        ul {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #ffffff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            font-size: 1.6rem;
+            padding: 0;
+            z-index: 10;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        li a:hover {
+            background-color: #b4ffb4;
+        }
+        @media (max-width: 768px) {
+            body {
+                margin: 0 5%;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            ul {
+                font-size: 1.2rem;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                margin: 0 2%;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            ul {
+                font-size: 1rem;
+            }
+            li {
+                float: none;
+                width: 100%;
+            }
+            li a {
+                padding: 10px;
+            }
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+    <title>Building a Website</title>
 </head>
 <body>
-<ul>
-  <li><a href="#">Home</a></li>
-  <li style="float:right"><a href="#projects">More</a></li>
-</ul>
-  <h1>Building a Website from Scratch</h1>
-  <br>
-    <img src="/images/placeholder.png" alt="Placeholder Image" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li style="float:right"><a href="#projects">More</a></li>
+    </ul>
+    <h1>Building a Website from Scratch</h1>
+    <br>
+    <img src="images/topblog.svg" alt="The source code for this website displayed in a code editor.">
 </body>
+</html>
